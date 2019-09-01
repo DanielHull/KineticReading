@@ -1,0 +1,14 @@
+# ignore all .log files
+*.log
+
+
+# python files to ignore (jupyter/ipython notebook, compiled python bytecode files, etc)
+#  see: http://stackoverflow.com/questions/8822335/what-do-the-python-file-extensions-pyc-pyd-pyo-stand-for
+*.ipynb
+*.pyc
+*.pyd
+*.pyo
+*.ipynb*
+
+# ignoring test directory - add for releases
+test/

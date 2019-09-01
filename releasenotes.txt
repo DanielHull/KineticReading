@@ -1,0 +1,80 @@
+========================================
+Release Notes
+Automated Kinetic Analysis (aka KineticReading)
+========================================
+
+--------------------------------------
+Release v0.2.5 (July 28, 2018)
+--------------------------------------
+New Features:
+Prompts Logged Error if af/ff aren't in the same folder
+Prompts Logged Error if users's supplied directories don't exist
+Better logging, no need for all the junk time data
+Cleaner UI, Adds assumptions to project for user to read
+Handles saturated detectors, not just one but when all droplets are saturated and no slope can be calculated
+Smart sizing of the droplet RFU figure to keep proportions right
+
+
+Notes:
+ *
+
+Changes:
+ *
+
+Bug Fixes:
+ * Handles saturated detectors, not just one but when all droplets are saturated and no slope can be calculated
+
+Known Issues:
+ *
+
+
+--------------------------------------
+Release v0.2.4 (July 13, 2018)
+--------------------------------------
+New Features:
+Ability to measure a single droplet not just multiple
+
+Notes:
+ *
+
+Changes:
+ *
+
+Bug Fixes:
+ * (Critical Fix) Can now have a single droplet measured
+
+Known Issues:
+ *
+
+
+
+--------------------------------------
+Release v0.2.3 (June 04, 2018)
+--------------------------------------
+New Features:
+GUI Layer
+ * New organization of labels
+ * Separation of abs/fluor buttons
+ * Coloration schema to match Baebies colors
+ * Automation of filling more label schemes
+Kinetic Analysis CLI
+ * start number/end number
+ * filename output
+ * normalization_factor
+ * no integration of save data file
+ Kinetic Tools
+ * Create Size Dictionary used to check to make sure value pairs are all equivalent length
+ * Used to check which drops have failed detections and which have mislabeled or uneven numbers of time/detection labels
+ * GUI prompt of which drops had these issues
+
+Notes:
+ *
+
+Changes:
+ *
+
+Bug Fixes:
+ * Can now have different numbers of droplet detections for different drops
+
+Known Issues:
+ *
